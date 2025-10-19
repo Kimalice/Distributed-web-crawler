@@ -69,37 +69,25 @@ This information is saved into structured CSV files for **data analysis, researc
 
 ---
 
-## 🚀 Getting Started
+🚀 Getting Started (Conceptual)
 
-### 1️⃣ Clone the Repository
+You can run the coordinator (Flask API) and start multiple workers on different machines or processes to simulate distributed crawling.
 
-```bash
-git clone https://github.com/your-username/distributed-web-crawler.git
-cd distributed-web-crawler
-```
-
-### 2️⃣ Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3️⃣ Start the Coordinator
-
-```bash
+# 1. Start Flask Coordinator
 python coordinator.py
-```
 
-### 4️⃣ Start Worker Nodes
-
-```bash
+# 2. Run Worker Nodes
 python worker.py
-```
+python worker.py  # You can scale as many as you want
 
----
+
+🔒 Note: Source code is not publicly included in this repository. This project serves as a showcase of architecture, system design, and real-world application of distributed crawling.
 
 ## 📊 Output Example (CSV)
 <img width="975" height="655" alt="DWC 1" src="https://github.com/user-attachments/assets/64b24fe7-eb0b-42c7-9257-eeabfe4bfd45" />
+<img width="970" height="639" alt="DWC 6" src="https://github.com/user-attachments/assets/85b9bc72-656c-43b9-a140-50cd4d979402" />
+<img width="1024" height="685" alt="DWC 7" src="https://github.com/user-attachments/assets/c9a27496-0568-485c-b7d9-6d5f086cdad9" />
+
 
 ---
 
